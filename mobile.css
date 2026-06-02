@@ -1,0 +1,183 @@
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .head-lucas {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+  .textbox h1 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+  }
+
+  .textbox p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+
+  .textbox h2 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 1rem 1.8rem;
+  }
+
+  img {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .bodytext {
+    flex-direction: column;
+  }
+
+  .bodytext h1 {
+    margin-bottom: 1rem;
+    margin-top: 8rem;
+  }
+
+  .bodytext p {
+    line-height: 2.3rem;
+  }
+
+  .bodytext h3 {
+    margin-top: 0;
+  }
+
+  .bodytext ul {
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: 0;
+  }
+
+  .bodytext ul li {
+    font-size: 2.8rem;
+
+    padding: 1.3rem;
+    /* margin-top: 3;
+    margin-bottom: 6rem; */
+  }
+
+  .pillow {
+    padding: 2rem;
+  }
+
+  .pillow h1 {
+    margin-bottom: 3rem;
+    flex-direction: column;
+    font-size: 3rem;
+  }
+
+  .backup ul li a {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    width: 100%;
+  }
+
+  button {
+    border-radius: 0;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  .icons {
+    line-height: 3rem;
+    padding: 3rem;
+  }
+  .icons p {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .tweets {
+    flex-direction: column;
+  }
+
+  .tweets img {
+    width: 100%;
+    border-radius: 100%;
+    margin: 0;
+  }
+  .tweets p {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .blog {
+    padding-bottom: 5rem;
+  }
+
+  .date-1 {
+    gap: 3rem;
+    padding: 1rem;
+  }
+
+  .date-1 p {
+    font-size: 1.5rem;
+  }
+
+  .date-1 a {
+    font-size: 1.2rem;
+  }
+
+  button {
+    border-radius: 0;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+  }
+
+  .numbers {
+    padding: 1rem;
+  }
+  .rewards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sign-1 {
+    font-size: 4rem;
+  }
+  .lastpart {
+    padding: 4rem;
+    padding-top: 7rem;
+  }
+
+  .lastpart h2 {
+    font-size: 4rem;
+  }
+  .lastpart p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .footer button {
+    border-radius: 13rem;
+    font-size: 1rem;
+  }
+  .footer-link {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
